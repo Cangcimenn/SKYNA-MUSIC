@@ -30,15 +30,14 @@
         "ALIVE_NAME": {
             "description": "isi nama bot musik kamu..",
             "value": "𝙎𝙆𝙔𝙉𝘼 𝙈𝙐𝙎𝙄𝘾",
-            "required": false
-            
+            "required": false            
         },
-         "BOT_NAME": {
+        "BOT_NAME": {
             "description": "isi nama bot musik kamu.",
             "value": "𝙎𝙆𝙔𝙉𝘼 𝙈𝙐𝙎𝙄𝘾",
             "required": true
         },
-         "DURATION_LIMIT": {
+        "DURATION_LIMIT": {
             "description": "waktu durasi bot anda.",
             "value": "60",
             "required": true
