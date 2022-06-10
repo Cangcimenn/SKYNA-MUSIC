@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from cache.Abhishek import SUPPORT
+from cache.import SUPPORT
 from cache.main import call_py, bot, user as SkynaMusic
 
 async def start_bot():
