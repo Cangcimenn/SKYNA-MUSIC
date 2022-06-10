@@ -1,0 +1,94 @@
+{
+    "name": "𝙎𝙆𝙔𝙉𝘼 𝙈𝙐𝙎𝙄𝘾",
+    "logo": "",
+    "description": "Bot Telegram untuk memutar audio dan video dalam obrolan video telegram.",
+    "keywords": [
+        "music", 
+        "voice chat", 
+        "telegram"
+    ],
+    "repository": "https://github.com/Cangcimenn/SKYNA-MUSIC",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "string session pyrogram",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Token Bot dari Botfather",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "isi dengan nama pengguna bot Anda dari @BotFather Catatan tanpa '@' ",
+            "required": true
+        },
+        "OWNER_NAME": {
+            "description": "isi username owner tanpa '@' .",
+            "value": "SkyXuser",
+            "required": false
+        },
+        "ALIVE_NAME": {
+            "description": "isi nama bot musik kamu..",
+            "value": "𝙎𝙆𝙔𝙉𝘼 𝙈𝙐𝙎𝙄𝘾",
+            "required": false
+            
+        },
+         "BOT_NAME": {
+            "description": "isi nama bot musik kamu.",
+            "value": "𝙎𝙆𝙔𝙉𝘼 𝙈𝙐𝙎𝙄𝘾",
+            "required": true
+        },
+         "DURATION_LIMIT": {
+            "description": "waktu durasi bot anda.",
+            "value": "60",
+            "required": true
+        },
+        "GROUP_SUPPORT": {
+            "description": "Tautan Group Dukungan jika ada, Biarkan kosong jika tidak ada dukungan. tanpa @.",
+            "value": "ilusi_kata",
+            "required": true
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Tautan Channel Dukungan jika ada, Biarkan kosong jika tidak ada dukungan. tanpa @.",
+            "value": "ilusi_kata",
+            "required": true
+        },
+    
+        "API_ID": {
+            "description": "Dapatkan ini dari https://my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Dapatkan ini dari https://my.telegram.org",
+            "required": true
+        },
+        "ASSISTANT_NAME": {
+            "description": "Masukan username akun asisstant tanpa @",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "Masukan id akun asisstant.",
+            "value": "5366532807",
+            "required": true
+        }
+        
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
