@@ -53,7 +53,6 @@
             "value": "ilusi_kata",
             "required": true
         },
-    
         "API_ID": {
             "description": "Dapatkan ini dari https://my.telegram.org",
             "required": true
