@@ -51,7 +51,7 @@ async def _human_time_duration(seconds):
 )
 async def start_private(client: Client, message: Message):
  await message.reply_photo(
-        photo=f"",
+        photo=f"https://telegra.ph/file/1c0582e56a00290a96f2a.jpg",
         caption=f"""ʜᴇʟʟᴏ✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
  **ꜱᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴜꜱɪᴄ ᴛᴇʟᴇɢʀᴀᴍ !!**
  **ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴄ ᴅᴀɴ ꜱᴛʀᴇᴀᴍ ᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ ꜱᴜᴀʀᴀ.**
@@ -110,7 +110,7 @@ async def start_group(client: Client, message: Message):
     alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 Uptime Status: `{uptime}`\n\n**𝐓𝐞𝐫𝐢𝐦𝐚 𝐤𝐚𝐬𝐢𝐡 𝐭𝐞𝐥𝐚𝐡 𝐦𝐞𝐧𝐚𝐦𝐛𝐚𝐡𝐤𝐚𝐧 𝐬𝐚𝐲𝐚 𝐝𝐢 𝐬𝐢𝐧𝐢, 𝐮𝐧𝐭𝐮𝐤 𝐦𝐞𝐦𝐮𝐭𝐚𝐫 𝐦𝐮𝐬𝐢𝐤 𝐝𝐢 𝐨𝐛𝐫𝐨𝐥𝐚𝐧 𝐬𝐮𝐚𝐫𝐚 𝐠𝐫𝐮𝐩 𝐀𝐧𝐝𝐚.** ❤"
 
     await message.reply_photo(
-        photo=f"{ALIVE_IMG}",
+        photo=f"https://telegra.ph/file/1c0582e56a00290a96f2a.jpg",
         caption=alive,
         reply_markup=keyboard,
     )
