@@ -60,7 +60,7 @@ async def start_private(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⛓ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ",
+                        "➗ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ ➗",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
